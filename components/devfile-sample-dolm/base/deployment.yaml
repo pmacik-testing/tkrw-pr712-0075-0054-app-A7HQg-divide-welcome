@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dolm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0054-tenant/tkrw-pr712-0075-0054-app/devfile-sample-dolm@sha256:fd9c47feaddf5f6ae77ace668812c0d18b60b07578c4e59af0dd51d5389aea3c
         name: my-nodejs
         ports:
         - containerPort: 3001
